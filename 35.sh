@@ -1,5 +1,5 @@
 sum=0
-echo "Number divisible by 3 and 5"
+echo "Number divisible by 3 and not 5"
 for ((i=50; i<=100; i++))
 do
 if (( i % 3 == 00 && i % 5 != 0))
